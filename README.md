@@ -1,5 +1,5 @@
 # Dynch
-Dynch (Dynamic Chat App)
+Dynch (Dynamic Chat App) BUILT in 2018
 
 Aplikasi Chat eksperimental dalam waktu luang. Berbasis semi-native code C++ CLI dengan database SQL Server secara lokal. Kode ditulis berdasarkan bahasa Indonesia.
 Lisensi MIT
