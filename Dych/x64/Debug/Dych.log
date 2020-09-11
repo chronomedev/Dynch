@@ -1,0 +1,28 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.MetaGen.targets(91,5): warning : Required file "C:\USERS\HANSRENEE\SOURCE\REPOS\DYCH\DYCH\DLL_KONEKSI.DLL" is missing.
+  kelasPengguna.cpp
+  kelas_thread.cpp
+  loginPengguna.cpp
+C:\Users\Hansrenee\source\repos\dynch\Dych\SignupForm.h(161,15): warning C4101: 'e': unreferenced local variable
+C:\Users\Hansrenee\source\repos\dynch\Dych\SignupForm.h(183,14): warning C4101: 'e': unreferenced local variable
+C:\Users\Hansrenee\source\repos\dynch\Dych\TambahTeman.h(173,15): warning C4101: 'e': unreferenced local variable
+C:\Users\Hansrenee\source\repos\dynch\Dych\mainDynch.h(501,23): warning C4101: 'e': unreferenced local variable
+C:\Users\Hansrenee\source\repos\dynch\Dych\mainDynch.h(533,23): warning C4101: 'e': unreferenced local variable
+C:\Users\Hansrenee\source\repos\dynch\Dych\mainDynch.h(605,24): warning C4101: 'e': unreferenced local variable
+  mainDynch.cpp
+C:\Users\Hansrenee\source\repos\dynch\Dych\SignupForm.h(161,15): warning C4101: 'e': unreferenced local variable
+C:\Users\Hansrenee\source\repos\dynch\Dych\SignupForm.h(183,14): warning C4101: 'e': unreferenced local variable
+C:\Users\Hansrenee\source\repos\dynch\Dych\TambahTeman.h(173,15): warning C4101: 'e': unreferenced local variable
+C:\Users\Hansrenee\source\repos\dynch\Dych\mainDynch.h(501,23): warning C4101: 'e': unreferenced local variable
+C:\Users\Hansrenee\source\repos\dynch\Dych\mainDynch.h(533,23): warning C4101: 'e': unreferenced local variable
+C:\Users\Hansrenee\source\repos\dynch\Dych\mainDynch.h(605,24): warning C4101: 'e': unreferenced local variable
+  SignupForm.cpp
+C:\Users\Hansrenee\source\repos\dynch\Dych\SignupForm.h(161,15): warning C4101: 'e': unreferenced local variable
+C:\Users\Hansrenee\source\repos\dynch\Dych\SignupForm.h(183,14): warning C4101: 'e': unreferenced local variable
+  simpanLogin.cpp
+  stdafx.cpp
+  TambahTeman.cpp
+C:\Users\Hansrenee\source\repos\dynch\Dych\TambahTeman.h(173,15): warning C4101: 'e': unreferenced local variable
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  Generating Code...
+  kelasPengguna.obj : MSIL module encountered; incremental linking is disabled for MSIL; performing full link
+  Dych.vcxproj -> C:\Users\Hansrenee\source\repos\dynch\x64\Debug\Dych.exe

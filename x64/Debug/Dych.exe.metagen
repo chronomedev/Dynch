@@ -1,0 +1,74 @@
+  Dych.loginPengguna.resources - Embedded, ContainedInManifestFile, 
+  Dych.mainDynch.resources - Embedded, ContainedInManifestFile, 
+  Dych.SignupForm.resources - Embedded, ContainedInManifestFile, 
+  Dych.TambahTeman.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Dych, Version=0.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly dll_koneksi, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class Dych.SignupForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String namaIDMasukan : Public
+    System.Data.SqlClient.SqlConnection koneksi : Public
+  Methods:
+    ambilID(String): PrivateScope, Public, HideBySig
+    createFriendTable(String): PrivateScope, Public, HideBySig
+Class Dych.TambahTeman: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(System.String): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String ID_Passing : Public
+    System.String errCode : Public
+    System.Data.SqlClient.SqlConnection koneksi : Public
+  Methods:
+    enableButtonTextProperties(): PrivateScope, Public, HideBySig
+    disableButtonTextProperties(): PrivateScope, Public, HideBySig
+    buatTabelTeman(): PrivateScope, Public, HideBySig
+    tambahTeman(): PrivateScope, Public, HideBySig
+    ambilNama(String): PrivateScope, Public, HideBySig
+Class Dych.mainDynch: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String NamaPenggunaMasuk : Public
+    System.String IDPenggunaMasuk : Public
+    System.String IDTemanPilihan : Public
+    System.String errCode : Public
+    System.Data.SqlClient.SqlConnection koneksi : Public
+    System.Data.SqlClient.SqlConnection koneksiThread : Public
+    System.String pilihan_nama_teman : Public
+    Boolean jalan_t1 : Public
+    System.String listMSG_dalam : Public
+    Int32 login_identifier : Public, Static
+  Methods:
+    enableUserPanel(): PrivateScope, Public, HideBySig
+    disableUserPanel(): PrivateScope, Public, HideBySig
+    ambilID(String): PrivateScope, Public, HideBySig
+    ambilNama(String): PrivateScope, Public, HideBySig
+    fillListTeman(): PrivateScope, Public, HideBySig
+    ambilIdTeman(String): PrivateScope, Public, HideBySig
+    fungsiAddChat(String, String): PrivateScope, Public, HideBySig
+    fungsiKoneksi(String, String): PrivateScope, Public, HideBySig
+    kirimPesan(String): PrivateScope, Public, HideBySig
+    fungsiThread(): PrivateScope, Public, HideBySig
+    updatestatus(): PrivateScope, Public, HideBySig
+Class Dych.loginPengguna: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.String namaUserMasukan : Public, Static

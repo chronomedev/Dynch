@@ -1,0 +1,7 @@
+C:\Users\Hansrenee\source\repos\dynch\Dych\x64\Debug\Dych.vcxprojAssemblyReference.cache
+C:\Users\Hansrenee\source\repos\dynch\Dych\x64\Debug\Dych.loginPengguna.resources
+C:\Users\Hansrenee\source\repos\dynch\Dych\x64\Debug\Dych.mainDynch.resources
+C:\Users\Hansrenee\source\repos\dynch\Dych\x64\Debug\Dych.SignupForm.resources
+C:\Users\Hansrenee\source\repos\dynch\Dych\x64\Debug\Dych.TambahTeman.resources
+C:\Users\Hansrenee\source\repos\dynch\Dych\x64\Debug\Dych.vcxproj.GenerateResource.cache
+C:\Users\Hansrenee\source\repos\dynch\Dych\x64\Debug\Dych.vcxproj.CopyComplete
